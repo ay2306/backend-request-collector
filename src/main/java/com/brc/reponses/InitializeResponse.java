@@ -6,7 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.Setter;
 
-@Datals
+@Data
 @Builder
 public class InitializeResponse {
     private boolean isNewEntry;
