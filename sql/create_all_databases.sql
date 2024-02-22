@@ -1,0 +1,2 @@
+CREATE DATABASE brc_staging;
+CREATE DATABASE brc;
