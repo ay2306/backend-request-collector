@@ -17,14 +17,14 @@ steps:
       - '--region'
       - '$_REGION'
       - '--set-env-vars'
-      - "DB_ADDRESS=${_DB_ADDRESS}"
-      - '--set-env-vars'
-      - "DB_PORT=${_DB_PORT}"
-      - '--set-env-vars'
-      - "DB_DATABASE=${_DB_DATABASE}"
-      - '--set-env-vars'
-      - "DB_USERNAME=${_DB_USERNAME}"
-      - '--set-env-vars'
-      - "DB_PASSWORD=${_DB_PASSWORD}"
+#      - "DB_ADDRESS=${_DB_ADDRESS}"
+#      - '--set-env-vars'
+#      - "DB_PORT=${_DB_PORT}"
+#      - '--set-env-vars'
+#      - "DB_DATABASE=${_DB_DATABASE}"
+#      - '--set-env-vars'
+#      - "DB_USERNAME=${_DB_USERNAME}"
+#      - '--set-env-vars'
+#      - "DB_PASSWORD=${_DB_PASSWORD}"
 images:
   - 'gcr.io/$PROJECT_ID/$_BINARY_NAME:$COMMIT_SHA'
