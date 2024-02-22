@@ -11,6 +11,12 @@ RUN ./mvnw package
 FROM openjdk:17-jdk-slim
 WORKDIR demo
 
+
+ARG _DB_ADDRESS
+ARG _DB_PORT
+ARG _DB_DATABASE
+ARG _DB_USERNAME
+ARG _DB_PASSWORD
 # Setting ENV variables
 ENV DB_ADDRESS=${_DB_ADDRESS}
 ENV DB_PORT=${_DB_PORT}
